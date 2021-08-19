@@ -5,7 +5,7 @@ const TaskSchema = new Schema({
     title: String,
     description: String,
     status: {
-        type: boolean,
+        type: Boolean,
         default: false
     }
 })
